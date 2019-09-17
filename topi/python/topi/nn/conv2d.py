@@ -669,6 +669,7 @@ def conv2d_NCHWc_int8_compute(data, kernel, strides, padding, dilation, layout, 
                        name='conv2d_NCHWc_int8', tag="conv2d_NCHWc_int8")
 
 
+
 def conv2d_winograd_weight_transform(kernel, tile_size):
     """Weight transformation for winograd
 
